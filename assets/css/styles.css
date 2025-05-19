@@ -314,6 +314,40 @@ main {
   height: 2.4rem;
 }
 
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 6.25rem 1rem 2rem;
+  background: var(--secondary-bg-color);
+  margin-top: -5.5rem;
+}
+
+.skill__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 600px; /* atur lebar maksimal supaya bisa pindah baris */
+  margin: 0 auto;
+}
+
+.skill__item {
+  width: 4.8rem;
+  height: 4.8rem;
+  border: 1px solid var(--secondary-border-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill__logo {
+  height: 2.4rem;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
